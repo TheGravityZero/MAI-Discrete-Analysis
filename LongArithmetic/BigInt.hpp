@@ -20,13 +20,13 @@ private:
     size_t count;
     size_t size;
 public:
-    // Constructor
+
     TBigInt(std::string& str);
     TBigInt();
     TBigInt(int num);
-    // Destructor
+
     ~TBigInt();
-    // IO funсtion
+
     TBigInt operator+(const TBigInt&);
     TBigInt operator-(const TBigInt&);
     TBigInt operator*(const TBigInt&);
@@ -38,8 +38,7 @@ public:
     TBigInt& operator/=(const int&);
     friend std::ostream& operator<<(std::ostream& os, const TBigInt& num);
     friend std::string Expand(std::string& str);
-  //  friend void Multiply(const std::vector<int>& a, const std::vector<int>& b, std::vector<int>& res);
-//    friend void FFT(std::vector<std::complex<double>>&a, bool invert);
+
     TBigInt operator*=(const TBigInt &elem);
     void DeleteZeros();
 };
