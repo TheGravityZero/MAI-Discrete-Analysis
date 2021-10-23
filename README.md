@@ -6,3 +6,5 @@ At the moment there are 4 algorithms here:
 4) Suffix-Tree/Longest Common Substring
 5) Long Arithmetic
 6) Knapsack Problem
+7) Greedy algorithm
+8) Algoritm Bellmana — Forda
